@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// count zeros of factorial;
 int CountZeros(int n)
 {
     int res = 0;
