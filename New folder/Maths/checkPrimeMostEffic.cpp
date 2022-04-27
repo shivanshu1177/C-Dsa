@@ -15,6 +15,9 @@ bool cPrime(int n){
     for (int i = 5; i*i <= n; i += 6)
     {
         /* code */
+        if(n%i == 0 || n%(i+2) == 0){
+            return 0;
+        }
         return 0;
     }
     return 1;
