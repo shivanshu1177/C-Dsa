@@ -12,13 +12,13 @@ int main(){
     }
     //selective sort 
     for(int i = 0; i<n-1; i++){
+        int minIndex = i;
         for(int j = i+1; j<n; j++){
-            if(arr[j]<arr[i]){
-                int temp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = temp;
+            if(arr[j] < arr[minIndex]){
+                minIndex = j;
             }
         }
+        swap(arr[minIndex], arr[i]);
     }
     //print sorted array
     for(int i = 0; i<n; i++){
