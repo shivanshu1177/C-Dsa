@@ -27,8 +27,5 @@ int main(){
     cout << "Access element on 2nd index: "<< a.at(2)<< endl;
 
     cout << "Check if array a is empty or not" << a.empty()<< endl;
-    for (int i = 0; i < bSize; i++)
-    {
-        cout << b[i] << endl;
-    }
+    
 }
