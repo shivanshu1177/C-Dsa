@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// reverse fn
 int revs(int arr[], int n){
     int s = 0;
     int e = n-1;
@@ -12,6 +12,7 @@ int revs(int arr[], int n){
     return 0;
 
 }
+// output fn
 int give(int arr[], int n){
     for (int i = 0; i < n; i++)
     {
